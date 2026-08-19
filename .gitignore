@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------------------
+# NEEDS-derived data must never enter this repository.  Once a file is
+# committed it stays in the history even after deletion, and the history is
+# what gets archived to Zenodo.
+# ---------------------------------------------------------------------------
+data/processed/
+*.parquet
+*.xlsx
+data/raw/*.xlsx      # NEEDS extracts now live here, not in data/raw/extra
+*.xls
+
+# The public inputs below ARE tracked; they are listed here only as a reminder
+# that the exclusions above are deliberate:
+#   data/raw/hojin_kigyo.csv        Financial Statements Statistics
+#   data/raw/KSdata_VAR_IV.csv      Kubota-Shintani shock series
+#   data/raw/macro_annual.csv       macro series
+#   data/raw/extra/dbj_motives*.csv DBJ investment survey
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# LaTeX
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz

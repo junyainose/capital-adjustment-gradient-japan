@@ -1,0 +1,20 @@
+{
+  "title": "Replication package for: Have Firms Become More Responsive to Returns? A Changing Capital-Adjustment Gradient in Japan",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Inose, Junya",
+      "affiliation": "Faculty of Economics, Toyo University"
+    }
+  ],
+  "keywords": [
+    "responsiveness",
+    "capital reallocation",
+    "misallocation",
+    "MRPK",
+    "investment",
+    "Japan"
+  ],
+  "description": "Code and public input data for the estimation of investment gradients among Japanese listed firms, FY1999-2024. The estimation sample is drawn from Nikkei NEEDS Financial QUEST and cannot be redistributed. A synthetic panel generator with known true coefficients is included so that the pipeline can be run and checked without a NEEDS licence."
+}

@@ -1,0 +1,8 @@
+# Pinned to the versions the results were produced with.
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+pyarrow>=15.0
+matplotlib>=3.8
+openpyxl>=3.1
+statsmodels>=0.14   # only for labor_cost.validate

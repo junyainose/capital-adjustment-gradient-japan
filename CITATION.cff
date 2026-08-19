@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "Replication package for: Have Firms Become More Responsive to Returns? A Changing Capital-Adjustment Gradient in Japan"
+abstract: >-
+  Code and public input data for the estimation of investment gradients among
+  Japanese listed firms, FY1999-2024.  The estimation sample itself is drawn
+  from Nikkei NEEDS Financial QUEST and cannot be redistributed; a synthetic
+  panel generator with known true coefficients is included so that the pipeline
+  can be run and checked without a NEEDS licence.
+type: software
+authors:
+  - family-names: Inose
+    given-names: Junya
+    affiliation: "Faculty of Economics, Toyo University"
+    email: inose@toyo.jp
+license: MIT
+keywords:
+  - responsiveness
+  - capital reallocation
+  - misallocation
+  - MRPK
+  - investment
+  - Japan
+references:
+  - type: article
+    title: "Have Firms Become More Responsive to Returns? A Changing Capital-Adjustment Gradient in Japan"
+    authors:
+      - family-names: Inose
+        given-names: Junya
+    year: 2026
