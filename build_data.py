@@ -35,7 +35,9 @@ OUT_PATH = "data/processed/panel_annual.parquet"
 # and leads at the end of the window exist.  Restricting first would silently
 # drop the boundary years.
 PANEL_FY_MIN, PANEL_FY_MAX = 1995, 2025
-ESTIMATION_FY_MIN, ESTIMATION_FY_MAX = 1999, 2019
+ESTIMATION_FY_MIN, ESTIMATION_FY_MAX = 1999, 2024   # keep in step with
+                                                    # FIRST_YEAR / LAST_YEAR
+                                                    # in build_tables.py
 CLOSING_MONTH = 3
 
 # The extract was assembled in batches; files below this index were trial runs

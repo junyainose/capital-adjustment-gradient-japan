@@ -1,6 +1,7 @@
 # Replication package
 
-**Investment gradients and their drift: evidence from Japanese listed firms**
+**Have Firms Become More Responsive to Returns?
+A Changing Capital-Adjustment Gradient in Japan**
 Junya Inose, Faculty of Economics, Toyo University
 
 This package reproduces every table and figure in the paper.
@@ -11,7 +12,8 @@ This package reproduces every table and figure in the paper.
 
 The paper estimates how the cross-sectional gradient of investment with respect
 to firm characteristics — the marginal revenue product of capital, leverage and
-size — has moved over 1999–2019 for firms listed on the Tokyo Stock Exchange.
+size — has moved over FY1999–2024 for firms listed on the Tokyo Stock
+Exchange.
 
 The estimation sample is drawn from Nikkei NEEDS Financial QUEST. **Those data
 may not be redistributed in any form, raw or derived**, so they are not included
@@ -88,9 +90,9 @@ the counts obtained from the extract used in the paper are:
 | Books closing in March | 1,754 | 62,082 |
 | Merged with the later extract | 1,754 | 62,082 |
 | Panel span FY1995--2025 | 1,749 | 46,546 |
-| Estimation window FY1999--2019 | 1,690 | 31,562 |
-| Core accounting variables non-missing | 1,672 | 30,865 |
-| Lagged capital available and positive | 1,656 | 30,636 |
+| Estimation window FY1999--2024 | 1,738 | 39,558 |
+| Core accounting variables non-missing | 1,736 | 39,426 |
+| Lagged capital available and positive | 1,729 | 39,037 |
 
 Restricting to firms closing their books in March is by far the largest
 selection, removing about a third of firms and just under half of the
